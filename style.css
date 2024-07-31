@@ -1,0 +1,57 @@
+:root{
+  --dark-blue: #1b1b32;
+}
+body {
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 18px;
+  color: white;
+  font-family: "Times New Roman"
+}
+h1 {
+  text-align: center;
+  font-size: 2.3rem;
+}
+.container {
+  background-color: #2B3068;
+  border: 5px solid white;
+  min-width: 300px;
+  width: fit-content;
+  min-height: 14rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+h3{
+  font-weight: bold;
+}
+#number {
+  border: #fff;
+  background-color: #1E2034;
+  height: 50px;
+  width: 150px;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  
+}
+button {
+background-color: #f1be32;
+height: 40px;
+width: 150px;
+border: 2px solid #f1be32
+}
+#output {
+  min-width: 300px;
+  min-height: 80px;
+  width: fit-content;
+  border: 5px solid #fff;
+  margin: 15px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #2B3068;
+  padding-top: 25px;
+}
